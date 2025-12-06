@@ -1,4 +1,9 @@
-# circle-stdlib
+# Flite for Circle
+
+This repository contains the minimum required setup to get the [Flite TTS engine](http://festvox.org/flite/) running with the Circle standard library.
+Confirmed working on a Raspberry Pi 4 with both `aarch64-none-` and `arm-none-eabi-` targts.
+
+## circle-stdlib
 
 ![Status badge for master branch](https://github.com/smuehlst/circle-stdlib/actions/workflows/master.yaml/badge.svg?branch=master)
 ![Status badge for develop branch](https://github.com/smuehlst/circle-stdlib/actions/workflows/develop.yaml/badge.svg?branch=develop)
