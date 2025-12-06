@@ -2,7 +2,7 @@
 
 include Config.mk
 
-all: circle newlib $(MBEDTLS)
+all: circle newlib flite $(MBEDTLS)
 
 build-samples: build-stdlib-samples $(MBEDTLS_SAMPLES)
 

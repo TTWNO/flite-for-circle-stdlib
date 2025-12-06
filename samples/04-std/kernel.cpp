@@ -39,11 +39,15 @@ CKernel::CKernel (void)
 
 CStdlibApp::TShutdownMode CKernel::Run (void)
 {
+	mActLED.Blink (5);	// show we are alive
 	mLogger.Write (GetKernelName (), LogNotice, "C++ Standard Library Demo");
+	mActLED.Blink (5);	// show we are alive
 
 	cxx_test();
 
+	mActLED.Blink (5);	// show we are alive
 	mLogger.Write (GetKernelName (), LogNotice, "C++ Standard Library Test finished");
+	mActLED.Blink (5);	// show we are alive
 
 	return ShutdownHalt;
 }
